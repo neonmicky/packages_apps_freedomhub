@@ -63,6 +63,15 @@
                 android:data="https://github.com/kunalshah912" />
         </Preference>
 
+        <Preference
+            android:title="@string/rosy_maintainer"
+            android:summary="@string/device_rosy"
+            android:icon="@drawable/ic_devs_phone" >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/neonmicky" />
+        </Preference>
+
      </PreferenceCategory>
 
 </PreferenceScreen>
